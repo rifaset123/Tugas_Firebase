@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/frame"
+    tools:context=".ui.SecondActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_margin="40dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="Insert/Edit Database"
+        android:textSize="24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapes2"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
+            android:hint="Nama"
+            android:textColorHint="@color/gray"/>
+
+        <EditText
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:hint="Judul"
+            android:textColorHint="@color/gray"
+            android:fontFamily="@font/poppins" />
+
+        <EditText
+            android:id="@+id/txt_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:hint="Isi"
+            android:fontFamily="@font/poppins" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="end"
+        android:layout_margin="25dp">
+
+        <ImageButton
+            android:id="@+id/btn_update"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/shape3"
+            android:fontFamily="@font/poppins"
+            android:src="@drawable/update"/>
+
+        <ImageButton
+            android:id="@+id/btnnn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:fontFamily="@font/poppins"
+            android:background="@drawable/shape3"
+            android:src="@drawable/add"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
