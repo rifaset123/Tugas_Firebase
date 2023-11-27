@@ -24,10 +24,6 @@ class MainActivity : AppCompatActivity() {
     }
     private val listReports = mutableListOf<Report>() // Tambahkan list untuk menyimpan data yang akan ditampilkan
     private lateinit var rvAdapter: RvAdapter // Deklarasikan adapter di sini
-//    companion object {
-//        const val EXTRA_NAME = "extra_name"
-//    }
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
